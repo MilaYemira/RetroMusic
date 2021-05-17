@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link class="img-fonts" rel="stylesheet" href="../Retro Music/css/login-style.css">
+    <title>Retro Music</title>
+</head>
+<body>
+    <div  class="todo-container">
+        <div class="bg-container">
+            <div class="primera-container">
+                <header class="logo-container">
+                    <img src="../img/logo.png" alt="retro music">
+                </header>   
+               <div class="img-container">
+                     <img src="../img/font letra.png" alt="letra">
+               </div>
+               <h1 class="sesion-title">
+                  Regístrate para abrir una cuenta de  
+                  Retro Music gratis
+              </h1>
+            </div>
+            <div class="formulario-container">
+                <form class="form" action="../Retro Music/menu.html" >
+                    <div class="input-container">
+                        <label for="¿Cuál es tu correo electronico?">
+                            ¿Cuál es tu correo electronico?
+                       </label>
+                       <input type="email" aria-invalid="true" id="email" name="email" placeholder="Introduce tu correo electrónico." required="" value="" >
+                    </div>
+                    <div class="input-container">
+                        <label for="Crea una contraseña">
+                            Crea una contraseña 
+                        </label>
+                        <input type="password" aria-invalid="true" autocomplete="new-password" id="password" pattern=".{8,}" name="password" placeholder="Crea una contraseña." required="" value="" >
+                   </div>
+                   <div class="input-container">
+                       <label for="¿Cuál es tu nombre? ">
+                             ¿Cuál es tu nombre? 
+                       </label>
+                       <input type="text" aria-invalid="true" id="displayname" name="displayname" placeholder="Introduce un nombre de perfil." required="" value="" >
+                   </div>
+                   <button class="login-btn" id="login-button" ng-click="onLoginClick($event)">CONTINUAR</button>
+               </form>
+               <div class="rayita-container">
+                  <img src="../img/Grupo 9.png" alt="raita">
+               </div>
+             <a href="https://www.instagram.com/" class="buton.container">
+                <button class="login-btn" type="button" >
+                   Registrate con Instagram
+                </button>
+             </a>
+             <H2 class="no-cuenta">
+               ¿Ya eres usuario de Retro Music?
+             </H2>
+             <a class="retromusic-link" href="../Retro Music/register.html">
+                  INICIAR SECIÓN
+             </a>
+                
+            </div>      
+        </div>
+    </div>
+</body>
+</html>

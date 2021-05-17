@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2? family = Noto + Sans + JP & display = swap');
+body{
+   margin: 0px;
+   padding: 0px;
+   font-family:'Noto Sans JP', sans-serif;
+}
+.todo-container {
+ width: 100%;
+ min-height: 100vh;
+ background-position: center;
+ background-image:url(../img/Capturaulkyi_4x.jpg);
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ align-items: center;
+ align-content:space-around;
+ justify-content:space-around;
+ font-family: 'Noto Sans JP',cursive;
+}
+.bg-container{
+width: auto;
+min-height: auto;
+background-color: #E6C6AD;
+border-radius: 20px;
+padding-bottom: 1em;
+padding-top: 1em;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.sesion-title{
+    display: block;
+    font-size: 1.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Noto Sans JP',cursive;
+    color: #BE9A7C;
+    text-align: center;
+    padding: 1em;
+    margin: 0 0 4px 0;
+    
+}
+.logo-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.logo-container img{
+    width: 10em;
+}
+.img-container img{
+    width: 20em;
+   background-position: center;
+
+}
+.formulario-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    width: 100%;
+
+}
+.formulario-container{
+    color:#707070;
+    font-size: 1em;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container label{
+    color: #CB6713;
+    font-size: 1em;
+}
+.input-container input{
+    height: 2.5em;
+}
+.login-btn{
+    height: 2em;
+    width: 100%;
+    background-color: #c36312;
+    color: #f3f3f3;
+    font-size: 1.1em;
+    border: 0px;
+    font-family: 'Noto Sans JP',cursive;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 50px;
+    padding: 10px 10px 10px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 1px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    margin: 0px;
+    margin-top: 1em;
+}
+.rayita-container{
+    width: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.retromusic-link{
+    color: #CB6713;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    width: 100%;
+    font-family: 'Noto Sans JP',cursive;
+}
+.no-cuenta{
+    width: 50%;
+    color: #DE975D;
+    text-align: center;
+}
+.retromusic-link {
+    width: 50%;
+    color: #CB6713;
+    text-align: center;
+}
+.rayita-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 1em;
+    
+}
+.no-cuenta{
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.50em;
+    margin-block-end: 0.50em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Noto Sans JP',cursive;
+}
+.input-container input{
+    border: 8em;
+    border-color: #CB6713;
+}

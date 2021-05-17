@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link class="img-fonts" rel="stylesheet" href="../Retro Music/css/register.css">
+    <title>Retro Music</title>
+</head>
+<body>
+    <div class="todo-container">
+        <div class="bg-container">  
+            <div class="primera-container">
+                <header class="logo-container">
+                    <img src="../img/logo.png" alt="retro music">
+                </header>   
+               <div class="img-container">
+                     <img src="../img/font letra.png" alt="letra">
+               </div>
+               <h1 class="sesion-title">
+                      Inicia seción para continuar
+               </h1>
+            </div>
+            <div class="formulario-container">
+                <form class="form" action="../Retro Music/menu.html">
+                    <div class="input-container">
+                        <label for="Dirección de correo o nombre de usuario">
+                            Dirección de correo o nombre de usuario
+                       </label>
+                       <input type="email" aria-invalid="true" id="email" name="email" placeholder="Introduce tu correo electrónico." required="" value="" >
+                    </div>
+                    <div class="input-container">
+                        <label for="Contraseña">
+                            Contraseña 
+                        </label>
+                        <input type="password" aria-invalid="true" autocomplete="new-password" id="password" pattern=".{8,}" name="password" placeholder="Crea una contraseña." required="" value="" >
+                   </div>
+                   <div class="record-me">
+                      <input type="checkbox" class name="remenberMe" id="bxid_remenberMe_true" value="true" tabindex="0" data-uia="remenberMe" checked> 
+                      <label for="bxid_remenberMe_true" data-uia="label+remenberMe">
+                         Recuérdame
+                      </label>
+                   </div>
+                   <button class="login-btn" id="login-button" ng-click="onLoginClick($event)">
+                     Iniciar sesión
+                   </button>
+               </form> 
+               <div class="rayita-container">
+                   <img src="../img/Grupo 9.png" alt="raita">
+               </div>
+              <a href="https://www.instagram.com/" class="buton.container">
+                 <button class="login-btn" type="button" >
+                     Registrate con Instagram
+                 </button>
+              </a>
+              <H2 class="no-cuenta" >
+               ¿No tienes una cuenta?
+             </H2>
+             <a class="retromusic-link" href="../Retro Music/index.html">
+                  REGÍSTRATE
+             </a>
+           </div>
+        
+        </div>        
+    </div>
+</body>
+</html>

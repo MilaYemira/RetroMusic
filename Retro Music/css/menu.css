@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2? family = Noto + Sans + JP & display = swap');
+body{
+    margin: 0px ;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-container img{
+    width: 25em;
+}
+.main-menu img{
+    width: 5em;
+}
+.list-menu{
+    display: none;
+    background-color: #FFEAD9;
+    display: block;
+    position: fixed;
+    top: 7em;
+    right: 0px;
+    text-align: center;
+    height: 100vh;
+    width: 30%;
+    transform: translate(100%);
+
+}
+.main-container{
+    min-height: 1000vh;
+    width: 100%;
+    background-color: #E6C6AD;
+}
+.list-menu li{
+    list-style: none;
+    margin-top: 2em;
+}
+.list-menu li a{
+    color: black;
+}
+.active-menu{
+    transform: translateX(0%);
+}
